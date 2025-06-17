@@ -4,7 +4,7 @@ namespace DesafioProjetoHospedagem.Models
     {
         public Suite() { }
 
-        public Suite(string tipoSuite, int capacidade, decimal valorDiaria)
+        public Suite(string tipoSuite, short capacidade, decimal valorDiaria)
         {
             TipoSuite = tipoSuite;
             Capacidade = capacidade;
@@ -12,7 +12,7 @@ namespace DesafioProjetoHospedagem.Models
         }
 
         public string TipoSuite { get; set; }
-        public int Capacidade { get; set; }
+        public short Capacidade { get; set; }
         public decimal ValorDiaria { get; set; }
     }
 }
